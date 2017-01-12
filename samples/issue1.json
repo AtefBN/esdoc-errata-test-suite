@@ -1,0 +1,11 @@
+{
+    "uid": "60cebd1c-ced3-4843-84a0-fb9d38303ea4",
+    "title": "Issue Title",
+    "description": "Issue description.",
+    "project": "cmip5",
+    "severity": "low",
+    "status": "new",
+    "url": "http://websitetest.com/",
+    "dateCreated": "2017-01-12 15:01:19",
+    "dateUpdated": "2017-01-12 15:01:23"
+}
