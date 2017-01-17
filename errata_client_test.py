@@ -87,7 +87,7 @@ class TestESDocERRATA(unittest.TestCase):
 def check_issue_files_and_pid(test_case):
 
     test_case.assertTrue(test_case.actionwords.check_issue_files())
-    test_case.assertTrue(test_case.actionwords.check_issue_pid())
+    # test_case.assertTrue(test_case.actionwords.check_issue_pid())
 
 
 def check_issue_files(test_case):
