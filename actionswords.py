@@ -19,7 +19,7 @@ download_dir = 'samples/download/'
 download_issue = 'dw_issue.json'
 download_dset = 'dw_dset.txt'
 username = 'AtefBN'
-token = '36add6ab5ca5e5003b566de5876ce80980ffd098'
+token = 'xx'
 passphrase = 'atef'
 new_passphrase = 'atefbennasser'
 
@@ -38,7 +38,7 @@ class Actionwords:
     def create_issue(self):
         set_credentials(username=username, token=token, passphrase=passphrase)
         # Required if the datasets don't have handles before.
-        create_handle_for_dataset(self.dsets)
+        # create_handle_for_dataset(self.dsets)
         process_command(command=CREATE, issue_file=self.issue, dataset_file=self.dsets, passphrase=passphrase,
                         issue_path=self.issue_path, dataset_path=self.dsets_path)
         self.check_issue_files()
